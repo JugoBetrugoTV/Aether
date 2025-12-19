@@ -1,0 +1,9 @@
+# Button Textures
+
+Place button-related textures here:
+- button-normal.tga (64x32 pixels)
+- button-hover.tga (64x32 pixels)
+- button-pressed.tga (64x32 pixels)
+- minimap-icon.tga (32x32 pixels)
+
+See Media/README.md for detailed specifications.

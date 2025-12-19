@@ -1,0 +1,9 @@
+# Panel Textures
+
+Place panel-related textures here:
+- bar-background.tga (2048x32 pixels)
+- bar-border.tga (2048x32 pixels)
+- bar-highlight.tga (2048x32 pixels)
+- bar-gradient.tga (2048x32 pixels)
+
+See Media/README.md for detailed specifications.

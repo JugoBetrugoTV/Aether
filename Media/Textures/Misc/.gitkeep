@@ -1,0 +1,8 @@
+# Misc Textures
+
+Place miscellaneous textures here:
+- tooltip-bg.tga (256x256 pixels)
+- divider.tga (512x2 pixels)
+- glow.tga (64x64 pixels)
+
+See Media/README.md for detailed specifications.
