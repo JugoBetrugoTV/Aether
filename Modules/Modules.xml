@@ -1,0 +1,35 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<!-- Panel System -->
+	<Include file="Panel\Panel.xml"/>
+	
+	<!-- Plugins -->
+	<Include file="Plugins\Plugins.xml"/>
+	
+	<!-- Automation -->
+	<Include file="Automation\Automation.xml"/>
+	
+	<!-- Social -->
+	<Include file="Social\Social.xml"/>
+	
+	<!-- Chat -->
+	<Include file="Chat\Chat.xml"/>
+	
+	<!-- Tooltip -->
+	<Include file="Tooltip\Tooltip.xml"/>
+	
+	<!-- Minimap -->
+	<Include file="Minimap\Minimap.xml"/>
+	
+	<!-- Frames -->
+	<Include file="Frames\Frames.xml"/>
+	
+	<!-- System -->
+	<Include file="System\System.xml"/>
+	
+	<!-- Media -->
+	<Include file="Media\Media.xml"/>
+	
+	<!-- Interface -->
+	<Include file="Interface\Interface.xml"/>
+</Ui>

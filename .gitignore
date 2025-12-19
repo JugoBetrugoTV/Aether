@@ -1,0 +1,119 @@
+# Aether .gitignore
+
+# WoW Addon Development
+*.toc.bak
+*.lua.bak
+
+# Saved Variables (user-specific)
+SavedVariables/
+WTF/
+
+# Libraries (should be managed separately)
+# Uncomment if you want to exclude libs from repo
+# Libs/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+release/
+*.zip
+*.7z
+*.rar
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if using build scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Package files
+*.packaged
+
+# Testing
+test-output/
+coverage/
+
+# Documentation build
+docs/_build/
+site/
+
+# Personal notes
+notes.txt
+TODO.txt
+.notes/
+
+# Screenshots (unless in Media/)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!Media/**/*.png
+!Media/**/*.jpg
+!Media/**/*.tga
+
+# Media working files
+*.psd
+*.ai
+*.xcf
+*.blend
+
+# Packager files
+.pkgmeta.bak
+.release/
+
+# Local development
+.local/
+local/
+dev/
+
+# Certificates and keys
+*.pem
+*.key
+*.cert
+
+# Database
+*.db
+*.sqlite
+
+# Compiled files
+*.o
+*.so
+*.dll
+*.exe
