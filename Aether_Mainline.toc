@@ -1,0 +1,74 @@
+## Interface: 120000
+## Title: Aether
+## Notes: All-in-One addon combining Leatrix Plus and Titan Panel features
+## Author: JugoBetrugoTV
+## Version: 1.0.0
+## SavedVariables: AetherDB
+## SavedVariablesPerCharacter: AetherCharDB
+## OptionalDeps: Blizzard_CombatLog
+## IconTexture: Interface\AddOns\Aether\Media\Textures\aether-icon
+
+# Libraries
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.lua
+Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua
+Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua
+Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\LibSharedMedia-3.0\lib.xml
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\lib.xml
+Libs\LibQTip-1.0\lib.xml
+
+# Locales
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\frFR.lua
+Locales\esES.lua
+Locales\itIT.lua
+
+# Core
+Core\Init.lua
+Core\Constants.lua
+Core\Utils.lua
+Core\Config.lua
+Core\Commands.lua
+
+# Modules - Panel
+Modules\Panel\Panel.lua
+
+# Modules - Plugins
+Modules\Plugins\Bag.lua
+Modules\Plugins\Clock.lua
+Modules\Plugins\Gold.lua
+Modules\Plugins\Location.lua
+Modules\Plugins\Performance.lua
+Modules\Plugins\Repair.lua
+Modules\Plugins\Volume.lua
+Modules\Plugins\XP.lua
+
+# Modules - Automation
+Modules\Automation\Quest.lua
+Modules\Automation\Repair.lua
+Modules\Automation\Sell.lua
+
+# Modules - Social
+Modules\Social\Blocks.lua
+
+# Modules - Chat
+Modules\Chat\Enhancements.lua
+
+# Modules - Minimap
+Modules\Minimap\Square.lua
+
+# Modules - System
+Modules\System\Camera.lua
