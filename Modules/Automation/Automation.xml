@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="Automation.lua"/>
+	<Script file="Quest.lua"/>
+	<Script file="Repair.lua"/>
+	<Script file="Sell.lua"/>
+	<Script file="Summon.lua"/>
+	<Script file="Resurrect.lua"/>
+	<Script file="Loot.lua"/>
+</Ui>
